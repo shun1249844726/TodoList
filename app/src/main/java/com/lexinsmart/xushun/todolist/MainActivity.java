@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements BatListener, OnIt
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
- 
+
         mRecyclerView = (BatRecyclerView) findViewById(R.id.bat_recycler_view);
         mAnimator = new BatItemAnimator();
 
